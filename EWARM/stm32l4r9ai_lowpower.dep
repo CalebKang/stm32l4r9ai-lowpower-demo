@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>2120026297</fileChecksum>
+    <configuration>
+        <name>stm32l4r9ai_lowpower</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c</file>
+            <file>$PROJ_DIR$\startup_stm32l4r9xx.s</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c</file>
+            <file>$PROJ_DIR$\..\Src\main.c</file>
+            <file>$PROJ_DIR$\..\Src\tim.c</file>
+            <file>$PROJ_DIR$\..\Src\usart.c</file>
+            <file>$PROJ_DIR$\..\Src\gpio.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32l4xx_hal_msp.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32l4xx_it.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_uart.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\List\stm32l4r9ai_lowpower.map</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\Src\system_stm32l4xx.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_cortex.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_i2c_ex.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_dma.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_rcc_ex.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal.h</file>
+            <file>$PROJ_DIR$\..\Inc\gpio.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_flash.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_tim.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_version.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_gpio_ex.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_tim_ex.h</file>
+            <file>$PROJ_DIR$\..\Inc\stm32l4xx_hal_conf.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_i2c.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4r9ai_lowpower.pbd</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_flash_ex.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_dma_ex.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_flash_ex.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_cortex.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_exti.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_tim_ex.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_flash_ramfunc.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_flash_ramfunc.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\main.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_it.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\usart.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_uart.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\usart.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_gpio.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_flash.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_i2c.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\system_stm32l4xx.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_pwr.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_dma.pbi</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_pwr_ex.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_cortex.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_flash_ramfunc.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_dma_ex.pbi</file>
+            <file>$PROJ_DIR$\..\Inc\main.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_uart_ex.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\gpio.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_pwr_ex.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_rcc_ex.pbi</file>
+            <file>$PROJ_DIR$\..\Inc\usart.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_uart_ex.pbi</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_pwr.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_msp.o</file>
+            <file>$PROJ_DIR$\..\Inc\tim.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_tim.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_gpio.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_uart.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_flash.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_dma_ex.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\tim.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_i2c_ex.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_flash_ex.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_rcc_ex.o</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_i2c_ex.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_i2c.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_exti.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_tim_ex.pbi</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_pwr.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_exti.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_dma.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_uart_ex.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\Inc\stm32l4xx_it.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\system_stm32l4xx.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\tim.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_rcc.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\startup_stm32l4r9xx.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_rcc.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_tim.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_it.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Exe\stm32l4r9ai_lowpower.out</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_rcc.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4r9xx.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_def.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_pwr_ex.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\stm32l4xx_hal_msp.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\stm32l4r9ai_lowpower\Exe\stm32l4r9ai_lowpower.hex</file>
+            <file>$PROJ_DIR$\stm32l4r9xx_flash.icf</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 125 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113 47 42 53 57 128 82 37 43 38 109 34 108 111 110 115 114 130 58 63 49 122 98 32 40 50 107 41 26 90 127 44 45 27 30 121 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128 37 34 109 43 38 82 42 53 113 57 47 108 111 110 115 114 130 58 63 49 122 98 32 40 50 107 41 26 90 127 44 45 27 30 121 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 129</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49 128 40 26 44 45 34 82 122 98 107 90 30 114 32 50 41 127 115 27 121 63 37 108 42 111 110 43 38 53 130 58 113 57 109 47 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90 34 98 30 122 107 114 128 82 49 40 26 44 45 32 50 41 127 115 27 121 63 37 108 42 111 110 43 38 53 130 58 113 57 109 47 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90 34 98 30 122 107 114 128 82 49 40 26 44 45 32 50 41 127 115 27 121 54 37 108 42 111 110 43 38 53 130 58 113 57 109 47 63 48 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_stm32l4r9xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128 32 41 121 82 50 127 115 27 49 122 98 40 107 26 90 44 45 30 34 114 63 37 108 42 111 110 43 38 53 130 58 113 57 109 47 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90 34 98 30 122 107 114 128 82 49 40 26 44 45 32 50 41 127 115 27 121 63 37 108 42 111 110 43 38 53 130 58 113 57 109 47 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115 50 127 27 98 128 82 32 41 121 54 49 122 40 107 26 90 44 45 30 34 114 37 108 42 111 110 43 38 53 130 58 113 57 109 47 63 48 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 121 128 41 32 82 50 127 115 27 49 122 98 40 107 26 90 44 45 30 34 114 63 37 108 42 111 110 43 38 53 130 58 113 57 109 47 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128 37 34 109 43 38 82 42 53 113 57 47 108 111 110 115 114 130 58 63 49 122 98 32 40 50 107 41 26 90 127 44 45 27 30 121 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ramfunc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32 41 121 128 82 50 127 115 27 98 49 122 40 107 26 90 44 45 30 34 114 63 37 108 42 111 110 43 38 53 130 58 113 57 109 47 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111 128 110 114 37 82 108 115 130 58 42 43 38 53 113 57 109 34 47 63 49 122 98 32 40 50 107 41 26 90 127 44 45 27 30 121 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82 93 87 39 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32 81 41 121 128 55 50 127 115 27 98 87 49 122 40 107 26 90 44 45 30 34 114 100 93 39 38 37 108 42 111 110 43 53 130 58 113 57 109 47 54 76 63 48 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93 81 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113 47 42 53 57 128 82 38 37 43 109 34 81 108 111 110 115 114 130 58 63 49 122 98 32 40 50 107 41 26 90 127 44 45 27 30 121 54 48 93 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87 81 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32 41 121 128 54 82 50 127 115 27 98 49 122 40 107 26 90 44 45 30 34 114 81 38 37 108 42 111 110 43 53 130 58 113 57 109 47 63 48 87 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39 81 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115 128 108 114 130 63 58 82 81 111 37 110 38 42 43 53 113 57 109 34 47 49 122 98 32 40 50 107 41 26 90 127 44 45 27 30 121 54 48 39 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32l4xx_hal_msp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 131</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 53 57 128 113 47 82 38 37 43 109 34 108 111 110 115 114 130 58 63 49 122 98 32 40 50 107 41 26 90 127 44 45 27 30 121 54 48 81 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128 40 26 44 45 34 122 98 107 90 30 32 50 41 127 115 27 114 100 49 37 108 42 111 110 43 38 53 130 58 113 57 109 121 54 76 47 63 48 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40 49 128 26 44 45 34 82 122 98 107 90 30 114 32 50 41 127 115 27 121 63 37 108 42 111 110 43 38 53 130 58 113 57 109 47 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44 45 128 26 40 34 122 98 107 90 32 50 41 127 115 30 114 100 49 37 108 42 111 110 43 38 53 27 121 54 76 130 58 113 57 109 47 63 48 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32l4xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82 116</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115 50 127 27 98 128 32 41 121 54 100 49 122 40 107 26 90 44 45 30 34 114 116 38 37 108 42 111 110 43 53 130 58 113 57 109 47 63 76 81 48 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37 111 128 110 114 82 108 115 130 58 42 43 38 53 113 57 109 34 47 63 49 122 98 32 40 50 107 41 26 90 127 44 45 27 30 121 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111 128 110 114 37 82 108 115 130 58 42 43 38 53 113 57 109 34 47 63 49 122 98 32 40 50 107 41 26 90 127 44 45 27 30 121 48 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 49 122 128 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114 128 58 108 115 130 82 111 37 110 42 43 38 53 113 57 109 63 49 122 98 32 40 50 107 41 26 90 127 44 45 27 30 34 47 48 121 54 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\system_stm32l4xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110 127 44 115 114 34 130 58 113 45 27 57 109 30 53 38 49 122 128 90 43 121 37 108 42 47 111 98 32 40 54 63 50 100 107 76 41 48 26 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98 58 90 121 128 54 115 114 130 122 107 82 49 40 26 38 53 113 57 109 32 50 41 34 127 44 45 27 30 37 108 42 111 110 43 47 63 48 100 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm32l4r9ai_lowpower\Exe\stm32l4r9ai_lowpower.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 133</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 134 84 65 120 78 60 36 56 61 97 59 79 70 72 35 92 91 85 126 102 94 62 68 112 66 73 99 69 51 33 46 29</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>
